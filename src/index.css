@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #23252C;
+  display: grid;
+  place-items: center;
+}
+
+.profile-picture {
+  width: 300px;
+  margin: auto;
+}
+
+.container {
+  width: 320px;
+  background: #1A1B21;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer * {
+  margin: 3px 10px;
+}
+
+.titles {
+  margin-top: 20px;
+}
+.titles * {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+button {
+  width: 115px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+.email {
+  background-color: white;
+}
+.email a {
+  color: black;
+}
+.linkedin {
+  background: #5093E2;
+  margin-left: 20px;
+}
+.position {
+  color: #F3BF99;
+}
+.link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  text-decoration: none;
+  text-align: center;
+  color: #F5F5F5;
+}
+.main-container p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #DCDCDC;
+  text-align: left;
+  padding: 0 10px;
+}
+.sub-section h2 {
+  text-align: start;
+  padding-left: 10px;
+}
