@@ -1,4 +1,4 @@
-import profile from "/home/bennyjoezpop/Documents/coding/react/scrimba/digital-business-card/src/images/BEN.jpg"
+import profile from "/images/BEN.jpg"
 
 export default function Header() {
     return (
