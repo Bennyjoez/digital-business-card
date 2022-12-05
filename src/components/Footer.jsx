@@ -1,7 +1,7 @@
-import twitter from "/home/bennyjoezpop/Documents/coding/react/scrimba/digital-business-card/src/images/Twitter Icon.png"
-import facebook from "/home/bennyjoezpop/Documents/coding/react/scrimba/digital-business-card/src/images/Facebook Icon.png"
-import instagram from "/home/bennyjoezpop/Documents/coding/react/scrimba/digital-business-card/src/images/Instagram Icon.png"
-import github from "/home/bennyjoezpop/Documents/coding/react/scrimba/digital-business-card/src/images/GitHub Icon.png"
+import twitter from "../images/Twitter Icon.png"
+import facebook from "../images/Facebook Icon.png"
+import instagram from "../images/Instagram Icon.png"
+import github from "../images/GitHub Icon.png"
 
 
 export default function Footer() {
